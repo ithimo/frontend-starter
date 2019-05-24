@@ -1,0 +1,54 @@
+// Flex utility classes
+.flex {
+    display: flex;
+    &.center {
+        align-items: center;
+    }
+    &.bottom {
+        align-items: flex-end;
+    }
+    &.spaced {
+        justify-content: space-between;
+    }
+    &.wrap {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    &.justify-center {
+        justify-content: center;
+    }
+    &.evenly {
+        justify-content: space-evenly;
+    }
+    &.column {
+        flex-direction: column;
+    }
+    &.strech {
+        align-items: stretch;
+    }
+    &.end {
+        justify-content: flex-end;
+    }
+    &.start {
+        justify-content: flex-start;
+    }
+    &.vertical-align {
+        align-items: center;
+    }
+
+
+    >.grow-1 {
+        flex-grow: 1;
+    }
+    >.grow-2 {
+        flex-grow: 2;
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
+.invisible {
+    visibility: hidden !important;
+}

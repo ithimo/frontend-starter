@@ -1,0 +1,30 @@
+# dependencies
+node_modules
+
+# production
+dist
+
+# misc
+.DS_Store
+Thumbs.db
+UserInterfaceState.xcuserstate
+*~
+*.sw[mnpcod]
+*.log
+*.tmp
+
+# IDE
+.idea/
+.sourcemaps/
+.sass-cache/
+.tmp/
+.versions/
+coverage/
+.vscode/
+npm-debug.log*
+
+npm-debug.log
+yarn-error.log
+yarn.lock
+.yarnclean
+.vscode
